@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Embed Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: sans-serif;
+        }
+        .container {
+            max-width: 540px;
+            width: 100%;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJTIetlymsg/" data-instgrm-version="14" style="background:#FFF; border:0; margin:0; width:100%;"></blockquote>
+    </div>
+    <script async src="https://www.instagram.com/embed.js"></script>
+</body>
+</html>
